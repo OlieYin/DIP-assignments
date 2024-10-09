@@ -30,12 +30,11 @@ python run_point_transform.py
 
 <image scr="01_ImageWarping/pics/global_run_demo.gif" alt="gif result of global transformation" width="800">
 
-You can run a demo on a public URL :
-[demo of global transformation](https://1c4900cbfc902fb0dc.gradio.live)
+
 
 ### 2. Result of point_based transformation:
 
 <image src='01_ImageWarping/pics/point_run_demo.gif' alt='gif result of point-based transformation' width='800'>
 
-Also you can access by:
-[demo of point-based transformation](https://e51cc06f6ab1ae498f.gradio.live)
+
+The gif may be too large, if you cannot see it, refer to 01_ImageWarping/pics/global_run_demo.gif(point_run_demo.gif)
