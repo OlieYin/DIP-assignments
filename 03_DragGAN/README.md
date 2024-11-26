@@ -32,7 +32,7 @@ L_D = L_R + L_F
 **The Generator (G)** is trained with loss L_G:
 
 
-L_G = L_1 + c \times L_D
+L_G = L_1 + c * L_D
 
 
 c is introduced because **D** is too strong such that **G** cannot fool **D**.
@@ -47,6 +47,8 @@ path="\01_GAN\result\pix2pix.pth"
 ```
 
 **Train Results:**
+
+If pictures cannot be displayed, please refer to `\01_GAN\result\`
 
 ![Train Result 1](03_DragGAN/01_GAN/result/train_res/result_1.png)
 
