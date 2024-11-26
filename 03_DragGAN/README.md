@@ -20,22 +20,22 @@ python GAN.py
 
 To improve performance, a discriminator is introduced. The PatchDiscriminator (D) is used to judge whether the input image with its label is generated (fake) or real.
 
-- **D** is trained with loss \(L_D\):
+- **D** is trained with loss L_D:
 
-\[
-L_D = L_{\text{R}} + L_{\text{F}}
-\]
+
+L_D = L_R + L_F
+
 
 - **Loss_R**: Binary cross-entropy with logits between `output_R` and 1s.
 - **Loss_F**: Binary cross-entropy with logits between `output_F` and 0s.
 
-**The Generator (G)** is trained with loss \(L_G\):
+**The Generator (G)** is trained with loss L_G:
 
-\[
-L_G = L_1 + \lambda \times L_D
-\]
 
-\(\lambda\) is introduced because **D** is too strong such that **G** cannot fool **D**.
+L_G = L_1 + c \times L_D
+
+
+c is introduced because **D** is too strong such that **G** cannot fool **D**.
 
 
 ### 1.3 Results
@@ -48,7 +48,7 @@ path="\01_GAN\result\pix2pix.pth"
 
 **Train Results:**
 
-![Train Result 1](\01_GAN\result\train_res\result_1.png)
+![Train Result 1](03_DragGAN/01_GAN/result/train_res/result_1.png)
 
 Other results are shown at: `\01_GAN\result\train_res\`
 
