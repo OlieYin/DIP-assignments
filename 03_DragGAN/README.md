@@ -48,7 +48,7 @@ path="\01_GAN\result\pix2pix.pth"
 
 **Train Results:**
 
-If pictures cannot be displayed, please refer to `\01_GAN\result\`
+**If pictures cannot be displayed, please refer to `\01_GAN\result\`**
 
 ![Train Result 1](03_DragGAN/01_GAN/result/train_res/result_1.png)
 
